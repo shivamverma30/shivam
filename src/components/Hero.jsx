@@ -10,7 +10,7 @@ import { personal, profiles } from '../data';
 // Words to cycle through in the typewriter effect
 const roles = [
   'Applied AI & Full-Stack Developer',
-  'Building Scalable ML & Web Solutions',
+  'Building Scalable ML & Web Apps',
 ];
 
 export default function Hero() {
