@@ -63,7 +63,7 @@ export default function Navbar() {
           <motion.a
             href="#hero"
             onClick={() => handleNavClick('#hero')}
-            className="font-mono font-bold text-lg flex items-center gap-0 tracking-tight"
+            className="font-mono font-bold text-sm sm:text-lg flex items-center gap-0 tracking-tight flex-shrink-0"
             whileHover={{ scale: 1.05 }}
           >
             <span className="text-accent">&lt;</span>

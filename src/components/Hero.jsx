@@ -107,11 +107,11 @@ export default function Hero() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.5 }}
-              className="text-xl sm:text-2xl font-mono mb-3 h-9 flex items-center"
+              className="text-lg sm:text-2xl font-mono mb-3 min-h-9 flex items-start sm:items-center flex-wrap"
               style={{ color: 'var(--text-secondary)' }}
             >
               <span className="text-accent mr-2">$</span>
-              <span>{displayed}</span>
+              <span className="break-words">{displayed}</span>
               <span className="ml-0.5 typewriter-cursor" />
             </motion.div>
 
@@ -227,7 +227,7 @@ export default function Hero() {
 
         {/* Scroll indicator */}
         <motion.div
-          className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
+          className="hidden md:flex absolute bottom-8 left-1/2 -translate-x-1/2 flex-col items-center gap-2"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.2 }}
