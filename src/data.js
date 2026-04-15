@@ -11,7 +11,7 @@ export const personal = {
   location: "Bhopal, Madhya Pradesh, India",
   email: "shivam3006.nitb@gmail.com",
   phone: "+91 9696734218",
-  resumeLink: "https://drive.google.com/file/d/1I_FLmliyz34_cmxpTbdcrYQsirvZKwsz/view?usp=drive_link",
+  resumeLink: "https://drive.google.com/file/d/1QlKbGHudWTOx9esq_sH5aa4VX3Xbxvj8/view?usp=drive_link",
   availableForWork: true,
 };
 
