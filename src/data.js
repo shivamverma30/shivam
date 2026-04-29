@@ -128,7 +128,7 @@ export const projects = [
   },
   {
     id: 5,
-    title: "All Video Downloader — Frontend + Express Backend",
+    title: "SaveKaro — All Video Downloader Platform",
     description:
       "Lightweight React + Vite frontend with an Express backend using yt-dlp for media downloads. Simple paste-and-download UI; backend handles extraction and rate-limiting.",
     tech: ["React", "Vite", "Express", "yt-dlp", "Axios", "Node.js"],
