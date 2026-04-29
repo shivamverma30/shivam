@@ -126,6 +126,17 @@ export const projects = [
     featured: true,
     gradient: "from-amber-500 to-orange-500",
   },
+  {
+    id: 5,
+    title: "All Video Downloader — Frontend + Express Backend",
+    description:
+      "Lightweight React + Vite frontend with an Express backend using yt-dlp for media downloads. Simple paste-and-download UI; backend handles extraction and rate-limiting.",
+    tech: ["React", "Vite", "Express", "yt-dlp", "Axios", "Node.js"],
+    github: "https://github.com/shivamverma30/savekaro-app",
+    live: "https://savekaro-sv.vercel.app/",
+    featured: true,
+    gradient: "from-stone-500 to-slate-600",
+  },
 ];
 
 /* ── EDUCATION ── */
@@ -148,7 +159,7 @@ export const education = [
     period: "July 2019 — July 2022",
     grade: "Score: 66.55%",
     description:
-      "Built a foundation in mathematics, programming, and analytical problem solving.",
+      "Built a foundation in mathematics, statistics, and analytical problem solving.",
     icon: "🏛️",
     color: "from-purple-400 to-pink-400",
   },
